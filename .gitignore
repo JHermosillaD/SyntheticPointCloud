@@ -1,6 +1,5 @@
 .vscode/
 obj/
-bin/
 *.o
 *.a
 *.so
