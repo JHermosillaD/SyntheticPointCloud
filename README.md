@@ -9,6 +9,8 @@
 
 A real-time application built with openFrameworks and ONNXRuntime, using the Depth Anything V2 model to perform monocular depth estimation on a standard webcam, generating an interactive 3D point cloud and a depth map simultaneously.
 
+<video width="1280" height="720" src="https://github.com/user-attachments/assets/ad131da5-029c-423a-ba8b-a45765a8510c.mp4"></video>
+
 ### Project Structure
 ```text
 ├── src/
