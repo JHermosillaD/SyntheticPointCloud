@@ -24,8 +24,18 @@ A real-time application built with openFrameworks and ONNXRuntime, using the Dep
     └── onnxruntime/
 ```
 
+### Downloads & Model
+
+You can download the pre-exported Metric Vit-B model as a release ([SyntheticPointCloud Release v1.0](https://github.com/JHermosillaD/SyntheticPointCloud/releases/tag/v1.0)). Both files (`.onnx` and `.onnx.data`) must be placed in the `bin/data/` folder.
+
 ### Dependencies
 
 - **openFrameworks** (v0.12.1+)
 - **ONNXRuntime C++ API** (v1.18+) 
 - **OpenCV** (v4.x)
+
+### Credits
+
+* **Base Model:** [Depth-Anything-V2](https://github.com/DepthAnything/Depth-Anything-V2) by the @DepthAnything team.
+* **ONNX Export Script:** [Depth-Anything-ONNX (v2.0.0)](https://github.com/fabio-sim/Depth-Anything-ONNX/releases/tag/v2.0.0) by @fabio-sim.
+* **C++ Inference Header:** [Depths-CPP](https://github.com/Geekgineer/Depths-CPP) by @Geekgineer.
